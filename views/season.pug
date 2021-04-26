@@ -1,0 +1,19 @@
+html
+    head
+    h1 Kim's Convenience
+    ul
+    for episode in info.episodes
+        div
+        table(style='width:100%', border='1')
+        thead
+        tbody
+        td=  episode.number
+        tr
+
+        h3= episode.title
+        p= episode.director
+        p= episode.synopsis
+
+        
+
+         
